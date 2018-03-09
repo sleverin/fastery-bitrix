@@ -1,0 +1,218 @@
+.fastery-select {
+    max-width: 100%;
+    width: 100%;
+    margin: 10px 0;
+}
+
+#fastery-map {
+    position: fixed;
+    width: 700px;
+    height: 350px;
+    top: 50%;
+    left: 50%;
+    margin-left: -350px;
+    margin-top: -175px;
+    border-radius: 10px;
+    overflow: hidden;
+    border-bottom: 3px solid #b0cbff;
+    z-index: 9999;
+}
+
+#fastery-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    z-index: 9998;
+    background: #FFF;
+}
+
+.popover {
+    display: block;
+}
+
+.fastery-map-close {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    color: #333;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    line-height: 24px;
+    z-index: 999;
+    background: #FFF;
+    text-decoration: none !important;
+}
+
+.fastery-btn {
+    margin-top: 10px;
+}
+
+.fastery-balloon {
+    display: inline-block;
+    padding: 4px 10px;
+    height: 210px;
+    position: relative;
+    bottom: 140px;
+    left: -190px;
+    width: 400px;
+    font-size: 11px;
+    line-height: 15px;
+    color: #333333;
+    text-align: left;
+    vertical-align: middle;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+.fastery-balloon h6, .fastery-content-body h6 {
+    text-align: center;
+    color: #333;
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.ymaps-2-1-52-b-cluster-tabs__menu .fastery-point {
+    display: none;
+}
+
+.ymaps-2-1-52-b-cluster-tabs__menu-item-text {
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.fastery-balloon p, .fastery-content-body p {
+    color: #999;
+    text-align: center;
+    margin: 0;
+    font-size: 12px;
+}
+
+.fastery-balloon-close {
+    position: absolute;
+    display: block;
+    right: 7px;
+    top: 5px;
+    font-size: 24px !important;
+    color: #999;
+    font-weight: 300;
+    z-index: 9999999;
+    text-decoration: none;
+}
+
+.fastery-choose-point {
+    color: #000;
+    background-color: #FFD24F;
+    border-color: #FFD24F;
+    border-radius: 3px;
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    font-weight: bold;
+    padding: 0 25px;
+    cursor: pointer;
+}
+
+.fastery-line {
+    border-top: 1px dotted #333;
+    margin: 20px 0;
+    width: 100%;
+    height: 1px;
+}
+
+.fastery-point {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 35px;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 300;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.fastery-choose-point:hover {
+    opacity: 0.7;
+}
+
+.fastery-delivery-logo img {
+    max-height: 50px;
+    max-width: 100px;
+}
+
+.fastery-icon-label {
+    width: 57px;
+    display: inline-block;
+    height: 55px;
+    line-height: 55px;
+    color: #FFF;
+    font-size: 12px;
+}
+
+.fastery-content-body {
+}
+
+#fastery-map-filter {
+    position: absolute;
+    height: auto;
+    padding: 15px 5px;
+    opacity: 0.9;
+    width: 300px;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    border-radius: 5px;
+    background: #FFF;
+}
+
+#fastery-min-price-filter {
+    width: 55px;
+    font-size: 12px;
+    margin-right: 10px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    float: left;
+}
+
+#fastery-max-price-filter {
+    width: 55px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    float: right;
+}
+
+#fastery-slider-price {
+    width: 160px;
+    float: left;
+    margin-top: 7px;
+    margin-right: 10px;
+}
+
+#fastery-showMap {
+    display: block;
+}
+
+@media (max-width: 600px) {
+    #fastery-map {
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+        margin: 0;
+    }
+}
+
+.ymaps-2-1-52-b-cluster-tabs__section_type_content {
+    text-align: center;
+}
